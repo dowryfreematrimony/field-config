@@ -1,6 +1,6 @@
 {
   "name": "field-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "fields and autocomplete for dowryfreematrimony website",
   "main": "fields.js",
