@@ -1,0 +1,19 @@
+{
+  "name": "field-config",
+  "version": "1.0.0",
+  "description": "fields and autocomplete for dowryfreematrimony website",
+  "main": "fields.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dowryfreematrimony/field-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dowryfreematrimony/field-config/issues"
+  },
+  "homepage": "https://github.com/dowryfreematrimony/field-config#readme"
+}
