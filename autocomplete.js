@@ -13,16 +13,12 @@ export const religion = [
 ];
 
 export const caste = [
-  "Forward Caste",
   "Ezhava", "Thiyya", "Billava",
   "No Caste",
   "Viswakarma",
   "Dheevara",
   "Nadar",
   "Latin Catholics",
-  "Anglo Indians",
-  "Siuc",
-  "Nadar Other Than Siuc",
   "Muslim",
   "Others",
 ];

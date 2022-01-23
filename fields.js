@@ -76,7 +76,7 @@ export const user = [
         },
 
         name: "gender",
-        type: "v-autocomplete",
+        type: "v-combobox",
 
       },
       {
@@ -99,7 +99,7 @@ export const user = [
           required: true,
         },
         name: "location",
-        type: "v-autocomplete",
+        type: "v-combobox",
         matches: [
           (a, b) => equal(a, b) ? 1 : 0,
         ],
@@ -109,7 +109,7 @@ export const user = [
           required: true,
         },
         name: "nationality",
-        type: "v-autocomplete",
+        type: "v-combobox",
         matches: [
           (a, b) => equal(a, b) ? 1 : 0,
         ],
@@ -119,7 +119,7 @@ export const user = [
           required: true,
         },
         name: "maritalStatus",
-        type: "v-autocomplete",
+        type: "v-combobox",
         matches: [
           (a, b) => equal(a, b) ? 10 : 0,
         ],
@@ -163,7 +163,7 @@ export const user = [
       },
       {
         name: "bodyType",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
     ],
   },
@@ -207,7 +207,7 @@ export const user = [
     fields: [
       {
         name: "emplaoyedIn",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
       {
         name: "currentJob",
@@ -236,11 +236,11 @@ export const user = [
     fields: [
       {
         name: "familyStatus",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
       {
         name: "familyType",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
       {
         name: "familyMembers",
@@ -255,7 +255,7 @@ export const user = [
       },
       {
         name: "familyValues",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
       {
         name: "ancestralOrigin",
@@ -263,11 +263,11 @@ export const user = [
       },
       {
         name: "fatherOccupation",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
       {
         name: "motherOccupation",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
       {
         name: "parentsNumber",
@@ -287,7 +287,7 @@ export const user = [
           required: true,
         },
         name: "religion",
-        type: "v-autocomplete",
+        type: "v-combobox",
         matches: [
           (a, b) => equal(a, b) ? 8 : 0,
         ],
@@ -297,7 +297,7 @@ export const user = [
           required: true,
         },
         name: "caste",
-        type: "v-autocomplete",
+        type: "v-combobox",
         matches: [
           (a, b) => equal(a, b) ? 10 : 0,
         ],
@@ -317,7 +317,7 @@ export const user = [
 
         },
         name: "partnerGender",
-        type: "v-autocomplete",
+        type: "v-combobox",
 
       },
       {
@@ -345,7 +345,7 @@ export const user = [
       },
       {
         name: "partnerMaritalStatus",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
       {
         name: "partnerPhysicalStatus",
@@ -389,7 +389,7 @@ export const user = [
       },
       {
         name: "partnerEmployed",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
       {
         name: "partnerOccupation",
@@ -431,19 +431,19 @@ export const user = [
     fields: [
       {
         name: "eatingHabits",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
       {
         name: "smokingHabits",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
       {
         name: "drinkingHabits",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
       {
         name: "hobbies",
-        type: "v-autocomplete",
+        type: "v-combobox",
         props: {
           hint: "partnerPreferencesHint",
           multiple: true,
@@ -496,14 +496,14 @@ export const agent = [
           required: true,
         },
         name: "location",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
       {
         props: {
           required: true,
         },
         name: "nationality",
-        type: "v-autocomplete",
+        type: "v-combobox",
       },
     ],
   },
